@@ -1,0 +1,389 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 10,
+    "passes": 9,
+    "pending": 1,
+    "failures": 0,
+    "start": "2024-02-11T21:38:43.877Z",
+    "end": "2024-02-11T21:38:43.926Z",
+    "duration": 49,
+    "testsRegistered": 10,
+    "passPercent": 100,
+    "pendingPercent": 10,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "516b30e0-002c-4c94-9751-f3963749d6f6",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "12906399-0958-482f-b62d-27aeefce72cc",
+          "title": "unit test capitalizeText function",
+          "fullFile": "F:\\SWE Fundemental ITI Round 2023 - 2024\\Testing_Eng.Mariam\\Day 2\\AnswerLabUnitTesting\\test\\index.test.js",
+          "file": "\\test\\index.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test that the function takes a string  it will return a string",
+              "fullTitle": "unit test capitalizeText function test that the function takes a string  it will return a string",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(capitalizeText('string')).to.be.an('string');",
+              "err": {},
+              "uuid": "19df012c-12d5-400c-a87c-515cf0b25f7f",
+              "parentUUID": "12906399-0958-482f-b62d-27aeefce72cc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test that the function takes a string and return it after capitalize it --> iti => ITI",
+              "fullTitle": "unit test capitalizeText function test that the function takes a string and return it after capitalize it --> iti => ITI",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(capitalizeText('iti')).to.equal('ITI');",
+              "err": {},
+              "uuid": "0911b63e-c9f8-461e-9c8b-ec7836de920b",
+              "parentUUID": "12906399-0958-482f-b62d-27aeefce72cc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test if the function takes number it will throw type error says parameter should be string",
+              "fullTitle": "unit test capitalizeText function test if the function takes number it will throw type error says parameter should be string",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(function () {\n  capitalizeText(7);\n}).to.throw(TypeError, 'parameter should be string');",
+              "err": {},
+              "uuid": "55b232d3-50df-4c75-b066-d90bd3bc13ed",
+              "parentUUID": "12906399-0958-482f-b62d-27aeefce72cc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test if the input iti , the returned value  will not equal to hello",
+              "fullTitle": "unit test capitalizeText function test if the input iti , the returned value  will not equal to hello",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(capitalizeText('iti')).to.not.equal('hello');",
+              "err": {},
+              "uuid": "0b0bbc18-0e95-4a3d-9e34-b5dfc99a6869",
+              "parentUUID": "12906399-0958-482f-b62d-27aeefce72cc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "19df012c-12d5-400c-a87c-515cf0b25f7f",
+            "0911b63e-c9f8-461e-9c8b-ec7836de920b",
+            "55b232d3-50df-4c75-b066-d90bd3bc13ed",
+            "0b0bbc18-0e95-4a3d-9e34-b5dfc99a6869"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "09b019e9-f4ea-4d40-a24f-f03a52b29e59",
+          "title": "unit test creatArray function using Expect",
+          "fullFile": "F:\\SWE Fundemental ITI Round 2023 - 2024\\Testing_Eng.Mariam\\Day 2\\AnswerLabUnitTesting\\test\\index.test.js",
+          "file": "\\test\\index.test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"unit test creatArray function using Expect\"",
+              "fullTitle": "unit test creatArray function using Expect \"before each\" hook in \"unit test creatArray function using Expect\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('before call ' + count++);",
+              "err": {},
+              "uuid": "0550a49c-1616-42b0-befc-f65ff09c8709",
+              "parentUUID": "09b019e9-f4ea-4d40-a24f-f03a52b29e59",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test that the return value of type array",
+              "fullTitle": "unit test creatArray function using Expect test that the return value of type array",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(createArray(1)).to.be.an('array');",
+              "err": {},
+              "uuid": "15189c88-c7a1-4f72-9f0a-1eac7e9410d1",
+              "parentUUID": "09b019e9-f4ea-4d40-a24f-f03a52b29e59",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test if we pass 3 it will return array of length 3 and test it's include 1",
+              "fullTitle": "unit test creatArray function using Expect test if we pass 3 it will return array of length 3 and test it's include 1",
+              "timedOut": false,
+              "duration": 5,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(createArray(3)).to.have.lengthOf(3).that.includes(1);",
+              "err": {},
+              "uuid": "746aeb1b-d57e-445c-b79e-0f54551a1094",
+              "parentUUID": "09b019e9-f4ea-4d40-a24f-f03a52b29e59",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "15189c88-c7a1-4f72-9f0a-1eac7e9410d1",
+            "746aeb1b-d57e-445c-b79e-0f54551a1094"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "7deaa008-dd20-40aa-8628-616bd9c269ad",
+          "title": "unit test for creatArray function using Assert Chai",
+          "fullFile": "F:\\SWE Fundemental ITI Round 2023 - 2024\\Testing_Eng.Mariam\\Day 2\\AnswerLabUnitTesting\\test\\index.test.js",
+          "file": "\\test\\index.test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"unit test for creatArray function using Assert Chai\"",
+              "fullTitle": "unit test for creatArray function using Assert Chai \"before each\" hook in \"unit test for creatArray function using Assert Chai\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('before call ' + count++);",
+              "err": {},
+              "uuid": "7c19887e-4ec9-4919-96a6-a571b09507cd",
+              "parentUUID": "7deaa008-dd20-40aa-8628-616bd9c269ad",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test that the return value of type array",
+              "fullTitle": "unit test for creatArray function using Assert Chai test that the return value of type array",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assertChai.isArray(createArray(1));",
+              "err": {},
+              "uuid": "b4475a83-b2df-4e5d-a951-f60f351edf65",
+              "parentUUID": "7deaa008-dd20-40aa-8628-616bd9c269ad",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test if we pass 3 it will return array of length 3 and test it's include 1",
+              "fullTitle": "unit test for creatArray function using Assert Chai test if we pass 3 it will return array of length 3 and test it's include 1",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assertChai.lengthOf(createArray(3), 3);\nassertChai.include(createArray(3), 1);",
+              "err": {},
+              "uuid": "34470f68-a374-448a-a222-27844fc0d7e6",
+              "parentUUID": "7deaa008-dd20-40aa-8628-616bd9c269ad",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b4475a83-b2df-4e5d-a951-f60f351edf65",
+            "34470f68-a374-448a-a222-27844fc0d7e6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d65bfb69-c143-45f6-b3ea-585793947246",
+          "title": "unit test creatArray function using should",
+          "fullFile": "F:\\SWE Fundemental ITI Round 2023 - 2024\\Testing_Eng.Mariam\\Day 2\\AnswerLabUnitTesting\\test\\index.test.js",
+          "file": "\\test\\index.test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"unit test creatArray function using should\"",
+              "fullTitle": "unit test creatArray function using should \"before each\" hook in \"unit test creatArray function using should\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('before call ' + count++);",
+              "err": {},
+              "uuid": "496917aa-c4c2-4e62-8ac0-590502733c63",
+              "parentUUID": "d65bfb69-c143-45f6-b3ea-585793947246",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test that the return value of type array",
+              "fullTitle": "unit test creatArray function using should test that the return value of type array",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(6000);\nsetTimeout(() => {\n  createArray(1).should.be.an('array');\n}, 5000);",
+              "err": {},
+              "uuid": "f5d92028-d02d-4ef3-b9b0-64114bbe61e2",
+              "parentUUID": "d65bfb69-c143-45f6-b3ea-585793947246",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test if we pass 3 it will return array of length 3 and test it's include 1",
+              "fullTitle": "unit test creatArray function using should test if we pass 3 it will return array of length 3 and test it's include 1",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "35b9520e-6a0d-4f93-af4e-ace02eead77d",
+              "parentUUID": "d65bfb69-c143-45f6-b3ea-585793947246",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f5d92028-d02d-4ef3-b9b0-64114bbe61e2"
+          ],
+          "failures": [],
+          "pending": [
+            "35b9520e-6a0d-4f93-af4e-ace02eead77d"
+          ],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.3.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
